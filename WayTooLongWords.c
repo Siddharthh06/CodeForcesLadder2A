@@ -7,8 +7,6 @@ int main()
     int n;
     scanf("%d", &n); //nuumber of lines
     
-    
-    
     for (int i = 0; i<n; i++)
     {
         char word[10000];
@@ -25,5 +23,4 @@ int main()
             printf("%s\n", word);
     }
     return 0;
-
 }
