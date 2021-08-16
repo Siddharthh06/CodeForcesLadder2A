@@ -5,8 +5,7 @@ int main()
 {
     char num[1000];
     scanf("%s", num);
-    int len;
-    len = strlen(num);
+    int len = strlen(num);
     int numint =  atoi(num);
     
     for (int i = 0; i<len; i++)
@@ -40,7 +39,6 @@ int main()
             }
         }
     }
-    
     
     return 0;
 }
