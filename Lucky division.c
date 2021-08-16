@@ -14,24 +14,24 @@ int main()
         if (num[i] == '4' && num[i+1] == '7')
         {
             printf("YES");
-            exit(0);
+            break;
         }
         else
         {
             if(numint%47 == 0)
             {
                 printf("YES");
-                exit(0);
+                break;
             }
             else if(numint%7 == 0)
             {
                 printf("YES");
-                exit(0);
+                break;
             }
             else if (numint%4 == 0)
             {
                 printf("YES");
-                exit(0);
+                break;
             }
             else
             {
