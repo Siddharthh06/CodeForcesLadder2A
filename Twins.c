@@ -32,7 +32,7 @@ int main()
     else
         halfcoin = 0;
 
-    //sorting is decsending order
+    //sorting
     int temp;
     for (int i = 0; i<coin; i++)
     {
