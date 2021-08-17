@@ -69,5 +69,5 @@ for i in range(0,num):
         print(word)
 ```
 
-### Github
-* [CodeForcesLadder](https://github.com/Siddharthh06/CodeForcesLadder2A)
+### CodeForces ladder
+* [CodeForcesLadder](https://a2oj.herokuapp.com/)
