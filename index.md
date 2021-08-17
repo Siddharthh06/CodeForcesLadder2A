@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
+## Solutions of CodeForces
 
-You can use the [editor on GitHub](https://github.com/Siddharthh06/CodeForcesLadder2A/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Problem 4A: Watermelon
+---
+```c
+  #include <stdio.h>
+  #include <stdlib.h>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  int main()
+  {
+      int w;
+      scanf("%d", &w);
+      int i;
+      i = w%2;
+      if(w == 2)
+      {
+          printf("NO");
+      }
+      else if (i == 0)
+      {
+          printf("YES");
+      }
+      else
+          printf("NO");
+    
+      return 0;
+  }
+```
+### Problem 71A: Way Too Long Words
 
-### Markdown
+#### Using C
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+int main()
+{
+    int n;
+    scanf("%d", &n); //nuumber of lines
+    
+    for (int i = 0; i<n; i++)
+    {
+        char word[10000];
+        unsigned long int len;
+        
+        scanf("%s", word);
+        len = strlen(word);
+        
+        if (len>10)
+        {
+            printf("%c%lu%c\n", word[0], len-2, word[len-1]);
+        }
+        else
+            printf("%s\n", word);
+    }
+    return 0;
+}
+```
+### Using Python3
+```python
+num = int(input())
+for i in range(0,num):
+    word = input()
+    length = len(word)
+    if length>10:
+        print(word[0] + str(length-2) + word[length-1])
+    else:
+        print(word)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Siddharthh06/CodeForcesLadder2A/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Github
+* [CodeForcesLadder](https://github.com/Siddharthh06/CodeForcesLadder2A)
