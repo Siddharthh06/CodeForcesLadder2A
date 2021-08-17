@@ -1,6 +1,6 @@
 ## Code Forces
 
-### Problem 4A: Watermelon
+## Problem 4A: Watermelon
 ---
 ```c
 #include <stdio.h>
@@ -26,8 +26,8 @@ int main()
     return 0;
 }
 ```
-### Problem 71A: Way Too Long Words
-
+## Problem 71A: Way Too Long Words
+___
 ### Using C
 ```c
 #include <stdio.h>
@@ -68,6 +68,6 @@ for i in range(0,num):
     else:
         print(word)
 ```
-
+___
 ### CodeForces ladder
 * [CodeForcesLadder](https://a2oj.herokuapp.com/)
