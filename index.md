@@ -1,4 +1,4 @@
-## Solutions of CodeForces
+## Code Forces
 
 ### Problem 4A: Watermelon
 ---
