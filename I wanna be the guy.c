@@ -1,3 +1,4 @@
+//use gnu gcc as compiler
 #include <stdio.h>
 #include <stdlib.h>
 
